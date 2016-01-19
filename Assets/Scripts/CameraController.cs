@@ -9,7 +9,9 @@ public class CameraController : MonoBehaviour {
 
 	void Start() {
 	  cameraVector = transform.position - player.transform.position;
-	  Screen.fullScreen = true;
+
+    /* Only use if fullscreen cannot be achieved with CSS. */
+	  //Screen.fullScreen = true;
 	}
 
 	void LateUpdate() {

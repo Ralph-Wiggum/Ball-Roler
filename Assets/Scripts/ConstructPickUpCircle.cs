@@ -15,7 +15,7 @@ public float radius;
       float theta = 2 * Mathf.PI * i / itemCount;
       float x = transform.position.x + radius * Mathf.Cos(theta);
       float z = transform.position.z + radius * Mathf.Sin(theta);
-      Instantiate(pickUp, new Vector3(x, 0.5f, z), Quaternion.identity);
+      Instantiate(pickUp, new Vector3(x, transform.position.y, z), Quaternion.identity);
     }
 	}
 }

@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour {
 
   void Update()
   {
-    if (Input.GetButtonDown("Jump"))
+    if (Input.GetButtonDown("Jump") || Input.GetButtonDown("Fire1"))
     {
       Vector3 belowPlayer = transform.position - new Vector3(0, 0.3f, 0);
       throwObject(dummyPickUp, belowPlayer);
