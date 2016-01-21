@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{4C1CF900-14A0-E458-DEAF-13D153D301A7}") = "Ball Roler", "Assembly-CSharp.csproj", "{CBEE350E-C4FF-B9E9-9A86-03CF98128D0C}"
 EndProject
+Project("{4C1CF900-14A0-E458-DEAF-13D153D301A7}") = "Ball Roler", "Assembly-CSharp-Editor.csproj", "{99644377-A199-4E4B-543C-F05D0D17381D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{CBEE350E-C4FF-B9E9-9A86-03CF98128D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBEE350E-C4FF-B9E9-9A86-03CF98128D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBEE350E-C4FF-B9E9-9A86-03CF98128D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99644377-A199-4E4B-543C-F05D0D17381D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99644377-A199-4E4B-543C-F05D0D17381D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99644377-A199-4E4B-543C-F05D0D17381D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99644377-A199-4E4B-543C-F05D0D17381D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

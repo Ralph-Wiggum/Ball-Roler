@@ -51,9 +51,19 @@ public class PlayerController : MonoBehaviour {
 
   void displayScore()
   {
-    int totaldummyPickUps = GameObject.FindGameObjectsWithTag("Pick Up").Length;
     scoreText.text = "Score: " + score.ToString();
-    if (totaldummyPickUps == 0)
+
+    int totalPickUps = GameObject.FindGameObjectsWithTag("Pick Up").Length;
+    if (totalPickUps == 2)
+    {
+      winText.text = ":^)";
+      Destroy(GameObject.Find("Ground"));
+    }
+    else if (totalPickUps == 1)
+    {
+      winText.text = "";
+    }
+    else if (totalPickUps == 0)
     {
       winText.text = "Got 'Em All!";
     }
